@@ -1,0 +1,52 @@
+.main {
+    background-color: #f0fff09e;
+    max-width: 1000px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main__article {
+    background-color: honeydew;
+    max-width: 800px;
+    padding: 40px;
+    margin-right: 25%;
+
+}
+
+.main__asideContent {
+    background-color: rgb(22 86 18 / 91%);
+    float: right;
+    padding: 20px;
+    margin-top: -320%;
+    border: black;
+    border-style: groove;
+    margin-left: 100%;
+    margin-right: -15px;
+
+}
+
+.main_button {
+    float: right;
+    background-color: rgba(5, 201, 5, 0.342);
+    border-style: ridge;
+    border-radius: 20px;
+    border-color: black;
+    outline: black;
+}
+
+.main_button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+
+.main__article--img {
+    width: 360px;
+    border-radius: 20%;
+}
+
+.main__article--img:hover {
+    outline-style: ridge;
+    outline-width: 5px;
+    outline-color: yellowgreen;
+}

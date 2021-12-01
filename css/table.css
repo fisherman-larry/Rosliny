@@ -1,0 +1,30 @@
+.table {
+    border-collapse: collapse;
+    margin-top: 100px;
+}
+
+
+.table__row:nth-child(even) {
+    background-color: rgba(238, 238, 238, 0.432);
+}
+
+.table__row:hover {
+    background-color: rgba(105, 100, 100, 0.568);
+    cursor:default;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: rgb(91, 158, 91);
+
+}
+
+.table__header:hover {
+    color: greenyellow;
+    cursor:default;
+}
