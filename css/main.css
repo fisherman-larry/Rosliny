@@ -41,8 +41,10 @@
 
 
 .main__article--img {
-    width: 360px;
+    max-width: 300px;
     border-radius: 20%;
+    object-fit: contain;
+    position: relative;
 }
 
 .main__article--img:hover {
