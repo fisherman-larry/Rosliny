@@ -1,6 +1,10 @@
-let button = document.querySelector(".main_button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+const welcome = () => {
+    console.log("Welcome on my page developer!")
+};
+
+let button = document.querySelector(".js-button");
+let body = document.querySelector(".js-body");
+let themeName = document.querySelector(".js-themeName");
 
 button.addEventListener("click", () => {
     body.classList.toggle("maranta");
@@ -11,3 +15,6 @@ button.addEventListener("click", () => {
         themeName.innerText = "Monstera";
     }
 });
+
+
+welcome();
