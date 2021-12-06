@@ -1,0 +1,13 @@
+.aside__content {
+    background-color: rgb(22 86 18 / 91%);
+    border: groove black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+

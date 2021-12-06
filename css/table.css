@@ -1,6 +1,10 @@
 .table {
     border-collapse: collapse;
     margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
 }
 
 
@@ -10,7 +14,7 @@
 
 .table__row:hover {
     background-color: rgba(105, 100, 100, 0.568);
-    cursor:default;
+    cursor: default;
 }
 
 .table__cell {
@@ -26,5 +30,5 @@
 
 .table__header:hover {
     color: greenyellow;
-    cursor:default;
+    cursor: default;
 }

@@ -14,6 +14,7 @@
     <link href="css/table.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/section.css" rel="stylesheet">
+    <link href="css/aside.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -29,7 +30,7 @@
 
 </head>
 
-<body class="container body">
+<body class="container js-body">
 
     <header class="container__header">
         <strong>Moje Rośliny</strong>
@@ -45,13 +46,13 @@
     </nav>
 
     <main class="main">
-        <button class="main_button">
-            <span class="themeName"> Monstera </span>
+        <button class="main__button js-button">
+            <span class="js-themeName"> Monstera </span>
         </button>
 
         <article class="main__article">
             <section class="section" class="section" id="główny-artykuł">
-                <h1>Zamiłowanie do roślin</h1>
+                <h2>Zamiłowanie do roślin</h2>
                 <p>Moja przygoda z roślinami zaczęła się w tym roku. Moją pierwszą rośliną była
                     <strong>monstera</strong>,
                     zachwycił mnie
@@ -128,20 +129,9 @@
                 </p>
             </section>
 
+
         </article>
-        <aside class="main__asideContent">
-            <h1>Linki do Wikipedii</h1>
-            <ul>
-                <li class="listItem link"><a rel="noreferrer noopener" target="_blank "
-                        href="https://pl.wikipedia.org/wiki/Monstera"> Monstera </a></li>
-                <li class="listItem"><a rel="noreferrer noopener" target="_blank "
-                        href="https://pl.wikipedia.org/wiki/Pilea_(ro%C5%9Blina)"> Pieniążek </a></li>
-                <li class="listItem"><a rel="noreferrer noopener" target="_blank "
-                        href="https://pl.wikipedia.org/wiki/Maranta"> Maranta </a></li>
-                <li class="listItem"><a rel="noreferrer noopener" target="_blank "
-                        href="https://pl.wikipedia.org/wiki/Monstera">Monstera (Monkey mask)</a></li>
-            </ul>
-        </aside>
+
 
         <table class="table" id="tabelka">
             <caption>Podsumowanie</caption>
@@ -172,6 +162,21 @@
             </tr>
         </table>
     </main>
+
+
+    <aside class="aside__content">
+        <h1>Linki do Wikipedii</h1>
+        <ul>
+            <li class="aside__listItem"><a rel="noreferrer noopener" target="_blank "
+                    href="https://pl.wikipedia.org/wiki/Monstera"> Monstera </a></li>
+            <li class="aside__listItem"><a rel="noreferrer noopener" target="_blank "
+                    href="https://pl.wikipedia.org/wiki/Pilea_(ro%C5%9Blina)"> Pieniążek </a></li>
+            <li class="aside__listItem"><a rel="noreferrer noopener" target="_blank "
+                    href="https://pl.wikipedia.org/wiki/Maranta"> Maranta </a></li>
+            <li class="aside__listItem"><a rel="noreferrer noopener" target="_blank "
+                    href="https://pl.wikipedia.org/wiki/Monstera">Monstera (Monkey mask)</a></li>
+        </ul>
+    </aside>
 
     <footer class="footer">
         Made by Hubert Dyrda.
