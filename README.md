@@ -9,4 +9,4 @@ I wanted this site to be fresh and basic.
 **https://fisherman-larry.github.io/Rosliny/**
 
 ## 
-![PAGE GIF](images/rosliny.gif)
+![PAGE GIF](https://i.imgur.com/zGrPAjy.gif)
