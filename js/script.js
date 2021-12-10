@@ -1,20 +1,21 @@
-const welcome = () => {
-    console.log("Welcome on my page developer!")
-};
+{
+    const welcome = () => {
+        console.log("Welcome on my page developer!")
+    };
 
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("maranta");
+        themeName.innerText = body.classList.contains("maranta") ? "Maranta" : "Monstera";
+    };
 
-button.addEventListener("click", () => {
-    body.classList.toggle("maranta");
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
 
-    if (body.classList.contains("maranta")) {
-        themeName.innerText = "Maranta";
-    } else {
-        themeName.innerText = "Monstera";
+        welcome();
     }
-});
+    init();
 
-
-welcome();
+}
